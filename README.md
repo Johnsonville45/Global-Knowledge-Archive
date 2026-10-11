@@ -20,7 +20,7 @@ A Bedrock Edition add-on that constructs a large futuristic knowledge campus cen
 - `CHANGELOG.md`
 
 ## Install on Android
-1. Download `Global_Knowledge_Archive.mcpack`.
+1. Download the generated pack file.
 2. Open it in Minecraft for Android.
 3. Wait for the import confirmation.
 4. In the target world, open Settings > Behavior Packs.
@@ -38,7 +38,7 @@ A Bedrock Edition add-on that constructs a large futuristic knowledge campus cen
 - `/function gka/build_plaza`
 - `/function gka/build_gardens`
 
-## Current validation status
+## Validation status
 This project has been statically validated for:
 - JSON manifest syntax
 - file existence for required functions
@@ -46,6 +46,9 @@ This project has been statically validated for:
 - correct function call references
 
 No in-game Bedrock runtime was available in this environment, so live gameplay validation remains unverified.
+
+## Packaging note
+The repo contains the full editable source for the add-on. Binary archive outputs such as `.mcpack` and `.zip` are not generated inside this browser-only environment. To finalize a distribution package, create a zip from the repository contents and package the `behavior_packs/gka_behavior` directory as the pack root for import into Bedrock.
 
 ## License and source
 This project is intended as an open source Bedrock add-on source for modification and extension.
