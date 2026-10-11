@@ -1,0 +1,3 @@
+say Building campus departments...
+function gka/department_ring
+say Departments complete.

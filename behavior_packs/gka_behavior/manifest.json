@@ -2,21 +2,21 @@
   "format_version": 2,
   "header": {
     "name": "Global Knowledge Archive",
-    "description": "A complete futuristic fantasy knowledge campus with 35 departments, grand library dome, observatory, and underground archive.",
-    "uuid": "12345678-1234-1234-1234-123456789012",
+    "description": "An importable Minecraft Bedrock Edition campus generator for a futuristic fantasy knowledge archive.",
+    "uuid": "b1f0f0a4-6aa3-4f8f-8d4d-cc1b5a97d3b0",
     "version": [1, 0, 0],
     "min_engine_version": [1, 20, 0]
   },
   "modules": [
     {
       "type": "data",
-      "uuid": "87654321-4321-4321-4321-210987654321",
+      "uuid": "a89f5fb0-f004-49ef-9f1f-08f0950551d1",
       "version": [1, 0, 0]
     }
   ],
   "metadata": {
     "authors": ["Johnsonville45"],
-    "license": "MIT",
-    "url": "https://github.com/Johnsonville45/Global-Knowledge-Archive"
+    "url": "https://github.com/Johnsonville45/Global-Knowledge-Archive",
+    "license": "MIT"
   }
 }
